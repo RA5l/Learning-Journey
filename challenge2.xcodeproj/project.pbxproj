@@ -6,8 +6,19 @@
 	objectVersion = 90;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		5BC556D630A9DCFA0036B269 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000000000000000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000000000000000100000000;
+			remoteInfo = challenge2;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		000000000000000000000120 /* challenge2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = challenge2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC556D230A9DCFA0036B269 /* challenge2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = challenge2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +27,20 @@
 			path = challenge2;
 			sourceTree = "<group>";
 		};
+		5BC556D330A9DCFA0036B269 /* challenge2Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = challenge2Tests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		000000000000000130000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		5BC556CF30A9DCFA0036B269 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
 			);
@@ -31,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				000000000000000000000010 /* challenge2 */,
+				5BC556D330A9DCFA0036B269 /* challenge2Tests */,
 				000000000000000000000020 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				000000000000000000000120 /* challenge2.app */,
+				5BC556D230A9DCFA0036B269 /* challenge2Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +87,27 @@
 			productReference = 000000000000000000000120 /* challenge2.app */;
 			productType = "com.apple.product-type.application";
 		};
+		5BC556D130A9DCFA0036B269 /* challenge2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC556D830A9DCFA0036B269 /* Build configuration list for PBXNativeTarget "challenge2Tests" */;
+			buildPhases = (
+				5BC556CE30A9DCFA0036B269 /* Sources */,
+				5BC556CF30A9DCFA0036B269 /* Frameworks */,
+				5BC556D030A9DCFA0036B269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BC556D730A9DCFA0036B269 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5BC556D330A9DCFA0036B269 /* challenge2Tests */,
+			);
+			name = challenge2Tests;
+			productName = challenge2Tests;
+			productReference = 5BC556D230A9DCFA0036B269 /* challenge2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -71,11 +115,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2630;
+				LastSwiftUpdateCheck = 2700;
 				LastUpgradeCheck = 2700;
 				TargetAttributes = {
 					000000000000000100000000 = {
 						CreatedOnToolsVersion = 26.3;
+					};
+					5BC556D130A9DCFA0036B269 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 000000000000000100000000;
 					};
 				};
 			};
@@ -94,12 +142,18 @@
 			projectRoot = "";
 			targets = (
 				000000000000000100000000 /* challenge2 */,
+				5BC556D130A9DCFA0036B269 /* challenge2Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		000000000000000140000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		5BC556D030A9DCFA0036B269 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
 			);
@@ -112,7 +166,20 @@
 			files = (
 			);
 		};
+		5BC556CE30A9DCFA0036B269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BC556D730A9DCFA0036B269 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000000000000000100000000 /* challenge2 */;
+			targetProxy = 5BC556D630A9DCFA0036B269 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		000000000000000011000000 /* Debug configuration for PBXProject "challenge2" */ = {
@@ -250,6 +317,7 @@
 		000000000000000111000000 /* Debug configuration for PBXNativeTarget "challenge2" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X9JG52463Y;
@@ -270,7 +338,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "devplaceholder.$(PROJECT_UNIQUE_VALUE:identifier).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appleraseelpersonalteam.challenge2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -288,6 +356,7 @@
 		000000000000000112000000 /* Release configuration for PBXNativeTarget "challenge2" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X9JG52463Y;
@@ -308,7 +377,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "devplaceholder.$(PROJECT_UNIQUE_VALUE:identifier).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appleraseelpersonalteam.challenge2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -320,6 +389,51 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		5BC556D930A9DCFA0036B269 /* Debug configuration for PBXNativeTarget "challenge2Tests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X9JG52463Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raseel.challenge2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/challenge2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/challenge2";
+			};
+			name = Debug;
+		};
+		5BC556DA30A9DCFA0036B269 /* Release configuration for PBXNativeTarget "challenge2Tests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X9JG52463Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raseel.challenge2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/challenge2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/challenge2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -339,6 +453,14 @@
 			buildConfigurations = (
 				000000000000000111000000 /* Debug configuration for PBXNativeTarget "challenge2" */,
 				000000000000000112000000 /* Release configuration for PBXNativeTarget "challenge2" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		5BC556D830A9DCFA0036B269 /* Build configuration list for PBXNativeTarget "challenge2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC556D930A9DCFA0036B269 /* Debug configuration for PBXNativeTarget "challenge2Tests" */,
+				5BC556DA30A9DCFA0036B269 /* Release configuration for PBXNativeTarget "challenge2Tests" */,
 			);
 			defaultConfigurationName = Release;
 		};
