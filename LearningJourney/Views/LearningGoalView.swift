@@ -36,7 +36,6 @@ struct LearningGoalView: View {
                     }
                     .buttonStyle(.glassProminent)
                     .tint(.learned)
-                    .disabled(!viewModel.canSave)
                 }
             }
         }

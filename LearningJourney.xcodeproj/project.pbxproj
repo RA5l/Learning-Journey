@@ -17,19 +17,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		000000000000000000000120 /* challenge2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = challenge2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BC556D230A9DCFA0036B269 /* challenge2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = challenge2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000000000000000120 /* LearningJourney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningJourney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC556D230A9DCFA0036B269 /* LearningJourneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningJourneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		000000000000000000000010 /* challenge2 */ = {
+		000000000000000000000010 /* LearningJourney */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = challenge2;
+			path = LearningJourney;
 			sourceTree = "<group>";
 		};
-		5BC556D330A9DCFA0036B269 /* challenge2Tests */ = {
+		5BC556D330A9DCFA0036B269 /* LearningJourneyTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = challenge2Tests;
+			path = LearningJourneyTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -51,8 +51,8 @@
 		000000000000000000000001 = {
 			isa = PBXGroup;
 			children = (
-				000000000000000000000010 /* challenge2 */,
-				5BC556D330A9DCFA0036B269 /* challenge2Tests */,
+				000000000000000000000010 /* LearningJourney */,
+				5BC556D330A9DCFA0036B269 /* LearningJourneyTests */,
 				000000000000000000000020 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,8 +60,8 @@
 		000000000000000000000020 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				000000000000000000000120 /* challenge2.app */,
-				5BC556D230A9DCFA0036B269 /* challenge2Tests.xctest */,
+				000000000000000000000120 /* LearningJourney.app */,
+				5BC556D230A9DCFA0036B269 /* LearningJourneyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,9 +69,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		000000000000000100000000 /* challenge2 */ = {
+		000000000000000100000000 /* LearningJourney */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 000000000000000110000000 /* Build configuration list for PBXNativeTarget "challenge2" */;
+			buildConfigurationList = 000000000000000110000000 /* Build configuration list for PBXNativeTarget "LearningJourney" */;
 			buildPhases = (
 				000000000000000120000000 /* Sources */,
 				000000000000000130000000 /* Frameworks */,
@@ -80,16 +80,16 @@
 			buildRules = (
 			);
 			fileSystemSynchronizedGroups = (
-				000000000000000000000010 /* challenge2 */,
+				000000000000000000000010 /* LearningJourney */,
 			);
-			name = challenge2;
+			name = LearningJourney;
 			productName = MyApp;
-			productReference = 000000000000000000000120 /* challenge2.app */;
+			productReference = 000000000000000000000120 /* LearningJourney.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5BC556D130A9DCFA0036B269 /* challenge2Tests */ = {
+		5BC556D130A9DCFA0036B269 /* LearningJourneyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5BC556D830A9DCFA0036B269 /* Build configuration list for PBXNativeTarget "challenge2Tests" */;
+			buildConfigurationList = 5BC556D830A9DCFA0036B269 /* Build configuration list for PBXNativeTarget "LearningJourneyTests" */;
 			buildPhases = (
 				5BC556CE30A9DCFA0036B269 /* Sources */,
 				5BC556CF30A9DCFA0036B269 /* Frameworks */,
@@ -101,11 +101,11 @@
 				5BC556D730A9DCFA0036B269 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				5BC556D330A9DCFA0036B269 /* challenge2Tests */,
+				5BC556D330A9DCFA0036B269 /* LearningJourneyTests */,
 			);
-			name = challenge2Tests;
+			name = LearningJourneyTests;
 			productName = challenge2Tests;
-			productReference = 5BC556D230A9DCFA0036B269 /* challenge2Tests.xctest */;
+			productReference = 5BC556D230A9DCFA0036B269 /* LearningJourneyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -127,7 +127,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 000000000000000010000000 /* Build configuration list for PBXProject "challenge2" */;
+			buildConfigurationList = 000000000000000010000000 /* Build configuration list for PBXProject "LearningJourney" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -141,8 +141,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				000000000000000100000000 /* challenge2 */,
-				5BC556D130A9DCFA0036B269 /* challenge2Tests */,
+				000000000000000100000000 /* LearningJourney */,
+				5BC556D130A9DCFA0036B269 /* LearningJourneyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -176,13 +176,13 @@
 /* Begin PBXTargetDependency section */
 		5BC556D730A9DCFA0036B269 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 000000000000000100000000 /* challenge2 */;
+			target = 000000000000000100000000 /* LearningJourney */;
 			targetProxy = 5BC556D630A9DCFA0036B269 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		000000000000000011000000 /* Debug configuration for PBXProject "challenge2" */ = {
+		000000000000000011000000 /* Debug configuration for PBXProject "LearningJourney" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -252,7 +252,7 @@
 			};
 			name = Debug;
 		};
-		000000000000000012000000 /* Release configuration for PBXProject "challenge2" */ = {
+		000000000000000012000000 /* Release configuration for PBXProject "LearningJourney" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -314,7 +314,7 @@
 			};
 			name = Release;
 		};
-		000000000000000111000000 /* Debug configuration for PBXNativeTarget "challenge2" */ = {
+		000000000000000111000000 /* Debug configuration for PBXNativeTarget "LearningJourney" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -325,6 +325,8 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Learning Journey";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -353,7 +355,7 @@
 			};
 			name = Debug;
 		};
-		000000000000000112000000 /* Release configuration for PBXNativeTarget "challenge2" */ = {
+		000000000000000112000000 /* Release configuration for PBXNativeTarget "LearningJourney" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -364,6 +366,8 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Learning Journey";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -392,7 +396,7 @@
 			};
 			name = Release;
 		};
-		5BC556D930A9DCFA0036B269 /* Debug configuration for PBXNativeTarget "challenge2Tests" */ = {
+		5BC556D930A9DCFA0036B269 /* Debug configuration for PBXNativeTarget "LearningJourneyTests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -410,11 +414,11 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/challenge2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/challenge2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearningJourney.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LearningJourney";
 			};
 			name = Debug;
 		};
-		5BC556DA30A9DCFA0036B269 /* Release configuration for PBXNativeTarget "challenge2Tests" */ = {
+		5BC556DA30A9DCFA0036B269 /* Release configuration for PBXNativeTarget "LearningJourneyTests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -432,7 +436,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/challenge2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/challenge2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearningJourney.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LearningJourney";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -440,27 +444,27 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		000000000000000010000000 /* Build configuration list for PBXProject "challenge2" */ = {
+		000000000000000010000000 /* Build configuration list for PBXProject "LearningJourney" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				000000000000000011000000 /* Debug configuration for PBXProject "challenge2" */,
-				000000000000000012000000 /* Release configuration for PBXProject "challenge2" */,
+				000000000000000011000000 /* Debug configuration for PBXProject "LearningJourney" */,
+				000000000000000012000000 /* Release configuration for PBXProject "LearningJourney" */,
 			);
 			defaultConfigurationName = Release;
 		};
-		000000000000000110000000 /* Build configuration list for PBXNativeTarget "challenge2" */ = {
+		000000000000000110000000 /* Build configuration list for PBXNativeTarget "LearningJourney" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				000000000000000111000000 /* Debug configuration for PBXNativeTarget "challenge2" */,
-				000000000000000112000000 /* Release configuration for PBXNativeTarget "challenge2" */,
+				000000000000000111000000 /* Debug configuration for PBXNativeTarget "LearningJourney" */,
+				000000000000000112000000 /* Release configuration for PBXNativeTarget "LearningJourney" */,
 			);
 			defaultConfigurationName = Release;
 		};
-		5BC556D830A9DCFA0036B269 /* Build configuration list for PBXNativeTarget "challenge2Tests" */ = {
+		5BC556D830A9DCFA0036B269 /* Build configuration list for PBXNativeTarget "LearningJourneyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5BC556D930A9DCFA0036B269 /* Debug configuration for PBXNativeTarget "challenge2Tests" */,
-				5BC556DA30A9DCFA0036B269 /* Release configuration for PBXNativeTarget "challenge2Tests" */,
+				5BC556D930A9DCFA0036B269 /* Debug configuration for PBXNativeTarget "LearningJourneyTests" */,
+				5BC556DA30A9DCFA0036B269 /* Release configuration for PBXNativeTarget "LearningJourneyTests" */,
 			);
 			defaultConfigurationName = Release;
 		};

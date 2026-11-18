@@ -37,7 +37,7 @@ struct OnboardingView: View {
                 .buttonStyle(.glassProminent)
                 .tint(.learned)
                 .controlSize(.large)
-                .disabled(!viewModel.canSave)
+                
 
                 Text("You can edit your desire later")
                     .font(.caption)

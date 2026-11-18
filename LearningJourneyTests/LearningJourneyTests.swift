@@ -1,6 +1,6 @@
 import Foundation
 import Testing
-@testable import challenge2
+@testable import LearningJourney
 
 private let calendar = Calendar.journey
 
