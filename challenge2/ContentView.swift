@@ -1,17 +1,19 @@
 import SwiftUI
-import Playgrounds
 
 struct ContentView: View {
+    let store: ProgressStore
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Group {
+            if store.goal == nil {
+                OnboardingView(store: store)
+            } else {
+                NavigationStack {
+                    ActivityView(store: store)
+                }
+                .ignoresSafeArea(.keyboard)
+            }
+        }
+        .animation(.default, value: store.goal == nil)
     }
-}
-
-#Preview {
-    ContentView()
-}
-
-#Playground {
-    _ = 1 + 2
 }
